@@ -8,9 +8,120 @@ Within a specific use case (e.g., summarizing text, answering technical question
 
 ## Algorithm:
 
-## Prompt
+Define Scope & Dataset
+Use Cases: Summarization, Technical Question Answering
+Prompts: Designed for both simple and technical contexts
+Establish Evaluation Rubric
+Metrics: Accuracy, Relevance, Clarity, Depth, Conciseness, Safety
+Scale: 1–5 per metric
+Generate Outputs
+Apply the same prompts across all platforms
+Collect outputs and note metadata (time, version)
+Evaluation Process
+Blind evaluation (platform names hidden)
+Human raters scored each output independently
+Aggregate Scores
+Compute mean values per metric
+Calculate composite scores for overall comparison
+Analysis
+Identify variations in style and quality
+Observe tendencies (e.g., concise vs. verbose, technical vs. simple)
+Reporting
+Include comparative ranking table
 
-## Output
+## Prompt:
 
-## Result
+Experiment and Results:
+Case 1: Text Summarization
+
+Prompt:
+“Summarize the following text into three sentences: Artificial intelligence is rapidly evolving and is transforming industries such as healthcare, education, and finance. However, ethical challenges related to privacy, fairness, and accountability remain critical. Governments, researchers, and companies are working together to ensure responsible deployment of AI.”
+
+ChatGPT Output:
+AI is transforming industries like healthcare, education, and finance. Ethical concerns such as privacy, fairness, and accountability remain central. Governments, researchers, and companies collaborate for responsible AI.
+Result: Accurate, concise, clear → Excellent
+
+Claude Output:
+AI is advancing quickly in sectors like healthcare, education, and finance. This brings ethical concerns over privacy, fairness, and accountability. Governments and companies are working together for safe AI use.
+Result: Accurate, polished, slightly less detailed → Very Good
+
+Bard/Gemini Output:
+AI is changing industries but creates challenges like fairness and privacy. Governments and companies are seeking solutions. The goal is responsible AI for society.
+Result: Correct but oversimplified → Moderate
+
+Cohere Command Output:
+AI is spreading into finance, healthcare, and education. Ethical issues—privacy, fairness, accountability—are critical. Governments and companies act to build trust in AI.
+Result: Accurate, slightly technical tone → Good
+
+Meta AI Output:
+AI affects healthcare, finance, and education. Challenges include privacy and accountability. Governments and researchers aim for safe AI.
+Result: Factual but fragmented → Average
+
+Case 2: Technical Question Answering
+
+Prompt:
+“What is the role of power electronics in Vehicle-to-Grid (V2G) systems?”
+
+ChatGPT Output:
+Power electronics enable bidirectional energy exchange between EVs and the grid. They manage charging/discharging, ensure voltage regulation, safety, and grid stability.
+Result: Detailed, clear, accurate → Excellent
+
+Claude Output:
+In V2G, power electronics regulate charging and discharging. They maintain efficiency, safety, and grid compatibility.
+Result: Concise, professional, accurate → Very Good
+
+Bard/Gemini Output:
+Power electronics allow safe charging and discharging of vehicles. This helps balance the grid.
+Result: Too simple, lacks depth → Fair
+
+Cohere Command Output:
+Power electronics provide DC–AC conversion, switching, and protection in V2G. They make EVs reliable grid resources.
+Result: Technical, strong explanation → Good
+
+Meta AI Output:
+V2G uses power electronics for charging, discharging, and conversion with the grid.
+Result: Minimal detail, average clarity → Average
+
+Case 3: Renewable Energy Summarization
+
+Prompt:
+“Summarize the following passage into a short paragraph: Renewable energy sources, such as solar, wind, and hydropower, are increasingly adopted to reduce dependence on fossil fuels. These energy systems are environmentally friendly, sustainable, and help in reducing carbon emissions. However, challenges remain in terms of energy storage, grid integration, and cost competitiveness.”
+
+ChatGPT Output:
+Renewable energy like solar, wind, and hydropower cut fossil fuel reliance and emissions. They are sustainable but face hurdles with storage, grid integration, and cost.
+Result: Balanced, concise, accurate → Excellent
+
+Claude Output:
+Solar, wind, and hydropower reduce fossil fuel use and carbon emissions. Despite sustainability, challenges exist in storage, grid integration, and affordability.
+Result: Clear, professional tone → Very Good
+
+Bard/Gemini Output:
+Renewables replace fossil fuels and cut emissions. They are sustainable but limited by storage and costs.
+Result: Concise, beginner-friendly → Good
+
+Cohere Command Output:
+Renewable sources such as solar, wind, and hydropower provide sustainable, low-carbon alternatives but are constrained by storage, integration, and economic barriers.
+Result: Structured, technical → Very Good
+
+Meta AI Output:
+Solar, wind, and hydropower reduce fossil fuel use but face issues of storage, grid integration, and cost.
+Result: Factual but shallow → Average
+
+
+## Output:
+<img width="3000" height="900" alt="ai_platforms_comparison" src="https://github.com/user-attachments/assets/6197366e-6d39-4a0d-8ec3-c0689aa3b639" />
+Comparative Analysis of AI Prompting Tools (2024)
+```
+Platform       | Accuracy      | Clarity       | Depth          | Conciseness | User Experience / Style  | Overall Rank
+---------------------------------------------------------------------------------------------------------------
+ChatGPT        | Excellent ✅  | Excellent ✅  | High (detailed)| Balanced    | Smooth, adaptive         | ⭐ #1
+Claude         | Very Good ✅  | Excellent ✅  | Medium-High    | Polished    | Professional tone        | ⭐ #2
+Cohere         | Good          | Good          | Medium         | Technical   | Enterprise-focused       | ⭐ #3
+Bard/Gemini    | Moderate      | Good          | Low            | Strong      | Beginner-friendly        | ⭐ #4
+Meta AI        | Average       | Fair          | Low            | Simple      | Basic, minimal           | ⭐ #5
+```
+
+
+
+## Result:
 
