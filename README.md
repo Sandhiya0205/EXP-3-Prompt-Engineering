@@ -51,7 +51,7 @@ Include comparative ranking table
 
 ## Experiment and Results:
 
-Case 1: Text Summarization
+## Case 1: Text Summarization
 
 Prompt:
 “Summarize the following text into three sentences: Artificial intelligence is rapidly evolving and is transforming industries such as healthcare, education, and finance. However, ethical challenges related to privacy, fairness, and accountability remain critical. Governments, researchers, and companies are working together to ensure responsible deployment of AI.”
@@ -76,7 +76,7 @@ Meta AI Output:
 AI affects healthcare, finance, and education. Challenges include privacy and accountability. Governments and researchers aim for safe AI.
 Result: Factual but fragmented → Average
 
-Case 2: Technical Question Answering
+## Case 2: Technical Question Answering
 
 Prompt:
 “What is the role of power electronics in Vehicle-to-Grid (V2G) systems?”
@@ -101,7 +101,7 @@ Meta AI Output:
 V2G uses power electronics for charging, discharging, and conversion with the grid.
 Result: Minimal detail, average clarity → Average
 
-Case 3: Renewable Energy Summarization
+## Case 3: Renewable Energy Summarization
 
 Prompt:
 “Summarize the following passage into a short paragraph: Renewable energy sources, such as solar, wind, and hydropower, are increasingly adopted to reduce dependence on fossil fuels. These energy systems are environmentally friendly, sustainable, and help in reducing carbon emissions. However, challenges remain in terms of energy storage, grid integration, and cost competitiveness.”
