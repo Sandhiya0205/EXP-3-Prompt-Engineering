@@ -9,29 +9,48 @@ Within a specific use case (e.g., summarizing text, answering technical question
 ## Algorithm:
 
 Define Scope & Dataset
+
 Use Cases: Summarization, Technical Question Answering
+
 Prompts: Designed for both simple and technical contexts
+
 Establish Evaluation Rubric
+
 Metrics: Accuracy, Relevance, Clarity, Depth, Conciseness, Safety
+
 Scale: 1–5 per metric
+
 Generate Outputs
+
 Apply the same prompts across all platforms
+
 Collect outputs and note metadata (time, version)
+
 Evaluation Process
+
 Blind evaluation (platform names hidden)
+
 Human raters scored each output independently
+
 Aggregate Scores
+
 Compute mean values per metric
+
 Calculate composite scores for overall comparison
+
 Analysis
+
 Identify variations in style and quality
+
 Observe tendencies (e.g., concise vs. verbose, technical vs. simple)
+
 Reporting
+
 Include comparative ranking table
 
-## Prompt:
 
-Experiment and Results:
+## Experiment and Results:
+
 Case 1: Text Summarization
 
 Prompt:
@@ -108,20 +127,48 @@ Solar, wind, and hydropower reduce fossil fuel use but face issues of storage, g
 Result: Factual but shallow → Average
 
 
-## Output:
-<img width="3000" height="900" alt="ai_platforms_comparison" src="https://github.com/user-attachments/assets/6197366e-6d39-4a0d-8ec3-c0689aa3b639" />
-Comparative Analysis of AI Prompting Tools (2024)
-```
-Platform       | Accuracy      | Clarity       | Depth          | Conciseness | User Experience / Style  | Overall Rank
----------------------------------------------------------------------------------------------------------------
-ChatGPT        | Excellent ✅  | Excellent ✅  | High (detailed)| Balanced    | Smooth, adaptive         | ⭐ #1
-Claude         | Very Good ✅  | Excellent ✅  | Medium-High    | Polished    | Professional tone        | ⭐ #2
-Cohere         | Good          | Good          | Medium         | Technical   | Enterprise-focused       | ⭐ #3
-Bard/Gemini    | Moderate      | Good          | Low            | Strong      | Beginner-friendly        | ⭐ #4
-Meta AI        | Average       | Fair          | Low            | Simple      | Basic, minimal           | ⭐ #5
-```
+## Comparison Table:
 
+<img width="3000" height="900" alt="ai_platforms_comparison" src="https://github.com/user-attachments/assets/6197366e-6d39-4a0d-8ec3-c0689aa3b639" />
+
+## Key Observations
+
+ChatGPT:Delivers the most balanced mix of depth, accuracy, and readability. Best for academic, technical, and professional needs.
+
+Claude: Clear and polished outputs, slightly less detailed than ChatGPT. Well-suited for professional contexts.
+
+Cohere Command: Strong on technical depth but somewhat formal; more enterprise-oriented.
+
+Bard/Gemini: Highly concise and easy to understand, ideal for general users but less suited for expert-level needs.
+
+Meta AI: Provides functional responses but lacks depth and richness.
 
 
 ## Result:
+From the comparative evaluation of prompting tools across five AI platforms (ChatGPT, Claude, Cohere Command, Bard/Gemini, and Meta AI), the following results were obtained:
+
+ChatGPT ranked the highest overall, providing the most accurate, clear, and balanced responses across both summarization and technical Q&A tasks.
+
+Claude followed closely, producing polished and professional outputs, though slightly less detailed than ChatGPT.
+
+Cohere Command performed strongly in technical explanations, showing enterprise-oriented precision, but sometimes lacked conversational clarity.
+
+Bard/Gemini was highly concise and beginner-friendly, making it suitable for simple explanations, though it lacked depth for advanced use cases.
+
+Meta AI delivered functional but shallow outputs, often oversimplified and less detailed compared to others.
+
+Final Ranking:
+
+⭐ ChatGPT
+
+⭐ Claude
+
+⭐ Cohere Command
+
+⭐ Bard/Gemini
+
+⭐ Meta AI
+
+## Conclusion:
+ChatGPT is the most reliable and well-rounded platform for both academic and professional tasks, while Claude excels in clarity and ethical tone. Cohere suits technical/enterprise contexts, Bard/Gemini is best for general users needing simplicity, and Meta AI remains functional but minimal.
 
