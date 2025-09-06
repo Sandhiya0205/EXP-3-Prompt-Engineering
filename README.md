@@ -125,11 +125,62 @@ Result: Structured, technical → Very Good
 Meta AI Output:
 Solar, wind, and hydropower reduce fossil fuel use but face issues of storage, grid integration, and cost.
 Result: Factual but shallow → Average
+## Case 4: Creative Writing Prompt
+
+Prompt:
+“Write a short motivational message for students preparing for exams.”
+
+ChatGPT Output:
+Success in exams comes from steady effort, not last-minute stress. Believe in your preparation and stay confident—your hard work will shine through.
+Result: Inspiring, empathetic, clear → Excellent
+
+Claude Output:
+Exams are a chance to show what you’ve learned. Approach them with calm focus, and remember that perseverance matters more than perfection.
+Result: Thoughtful, polished, slightly formal → Very Good
+
+Bard/Gemini Output:
+Study well, stay calm, and believe in yourself. You can do it!
+Result: Clear, very simple, beginner-friendly → Good
+
+Cohere Command Output:
+Student success lies in disciplined study, consistent practice, and self-trust. Exams are milestones, not final judgments.
+Result: Strong tone, slightly technical phrasing → Good
+
+Meta AI Output:
+Work hard, stay calm, and you will succeed in exams.
+Result: Correct but too basic, minimal detail → Average
+
+## Case 5: Definition/Concept Explanation
+
+Prompt:
+“Explain the concept of Internet of Things (IoT) in simple terms.”
+
+ChatGPT Output:
+The Internet of Things (IoT) connects everyday devices—like watches, cars, or home appliances—to the internet so they can share data and work smarter. For example, a smart fridge can track food or a smartwatch can monitor your health.
+Result: Accurate, clear, relatable → Excellent
+
+Claude Output:
+IoT refers to ordinary objects being connected online so they can communicate and be controlled. It makes systems more efficient, from smart homes to industrial monitoring.
+Result: Correct, clear, professional → Very Good
+
+Bard/Gemini Output:
+IoT means devices like cars, phones, or lights connect to the internet and talk to each other.
+Result: Beginner-friendly, lacks depth → Good
+
+Cohere Command Output:
+IoT is a network of connected devices that collect and share data over the internet. It integrates sensors, communication protocols, and cloud platforms for real-time intelligence.
+Result: Strong technical explanation, slightly jargon-heavy → Good
+
+Meta AI Output:
+IoT connects devices to the internet so they can share information.
+Result: Very basic, shallow detail → Average
 
 
 ## Comparison Table:
 
 <img width="3000" height="900" alt="ai_platforms_comparison" src="https://github.com/user-attachments/assets/6197366e-6d39-4a0d-8ec3-c0689aa3b639" />
+<img width="2400" height="1500" alt="ai_platforms_avg_performance" src="https://github.com/user-attachments/assets/db241f26-4be1-4691-9460-d0bedcdd3254" />
+
 
 ## Key Observations
 
